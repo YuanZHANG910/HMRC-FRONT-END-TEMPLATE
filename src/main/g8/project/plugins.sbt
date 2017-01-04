@@ -5,10 +5,10 @@ resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/
 
 resolvers += "Typesafe repository mvn" at "http://repo.typesafe.com/typesafe/maven-releases/"
 
-addSbtPlugin("uk.gov.hmrc" % "sbt-auto-build" % "$sbt_auto_build$")
+addSbtPlugin("uk.gov.hmrc" % "sbt-auto-build" % "1.0.0")
 
-addSbtPlugin("uk.gov.hmrc" % "sbt-git-versioning" % "$sbt_git_versioning$")
+addSbtPlugin("uk.gov.hmrc" % "sbt-git-versioning" % "0.8.0")
 
-addSbtPlugin("uk.gov.hmrc" % "sbt-distributables" % "$sbt_distributables$")
+addSbtPlugin("uk.gov.hmrc" % "sbt-distributables" % "0.11.0")
 
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.8")
