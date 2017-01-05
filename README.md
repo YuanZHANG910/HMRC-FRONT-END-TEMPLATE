@@ -10,4 +10,4 @@ You will need sbt 0.13.13 or above to use this template
 
 
 This repo is a personalized version of the existing solutions. 
-Inspired from both [ferhtaydn/sbt-skeleton.g8](https://github.com/ferhtaydn/sbt-skeleton.g8)
+Inspired from [ferhtaydn/sbt-skeleton.g8](https://github.com/ferhtaydn/sbt-skeleton.g8)
