@@ -1,6 +1,6 @@
-package uk.gov.hmrc.$name$.controllers
+package $mainPackage$$name$.controllers
 
-import uk.gov.hmrc.play.frontend.controller.FrontendController
+import $mainPackage$play.frontend.controller.FrontendController
 import play.api.mvc._
 import scala.concurrent.Future
 import play.api.Play.current
@@ -11,6 +11,6 @@ object HelloWorld extends HelloWorld
 
 trait HelloWorld extends FrontendController {
   val helloWorld = Action.async { implicit request =>
-		Future.successful(Ok(uk.gov.hmrc.$name$.views.html.helloworld.hello_world()))
+		Future.successful(Ok($mainPackage$$name$.views.html.helloworld.hello_world()))
   }
 }

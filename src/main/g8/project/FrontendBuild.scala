@@ -2,9 +2,9 @@
 import sbt._
 import play.sbt.PlayImport._
 import play.core.PlayVersion
-import uk.gov.hmrc.SbtAutoBuildPlugin
-import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin
-import uk.gov.hmrc.versioning.SbtGitVersioning
+import $mainPackage$SbtAutoBuildPlugin
+import $mainPackage$sbtdistributables.SbtDistributablesPlugin
+import $mainPackage$versioning.SbtGitVersioning
 
 object FrontendBuild extends Build with MicroService {
 

@@ -1,4 +1,4 @@
-package uk.gov.hmrc.$name$
+package $mainPackage$$name$
 
 import java.io.File
 
@@ -8,12 +8,12 @@ import play.api.Mode._
 import play.api.mvc.Request
 import play.api.{Application, Configuration, Play}
 import play.twirl.api.Html
-import uk.gov.hmrc.crypto.ApplicationCrypto
-import uk.gov.hmrc.play.audit.filters.FrontendAuditFilter
-import uk.gov.hmrc.play.config.{AppName, ControllerConfig, RunMode}
-import uk.gov.hmrc.play.frontend.bootstrap.DefaultFrontendGlobal
-import uk.gov.hmrc.play.http.logging.filters.FrontendLoggingFilter
-import uk.gov.hmrc.play.filters.MicroserviceFilterSupport
+import $mainPackage$crypto.ApplicationCrypto
+import $mainPackage$play.audit.filters.FrontendAuditFilter
+import $mainPackage$play.config.{AppName, ControllerConfig, RunMode}
+import $mainPackage$play.frontend.bootstrap.DefaultFrontendGlobal
+import $mainPackage$play.http.logging.filters.FrontendLoggingFilter
+import $mainPackage$play.filters.MicroserviceFilterSupport
 import play.api.i18n.Messages.Implicits._
 import play.api.Play.current
 
@@ -31,7 +31,7 @@ object FrontendGlobal
   }
 
   override def standardErrorTemplate(pageTitle: String, heading: String, message: String)(implicit rh: Request[_]): Html =
-    uk.gov.hmrc.$name$.views.html.error_template(pageTitle, heading, message)
+    $mainPackage$$name$.views.html.error_template(pageTitle, heading, message)
 
   override def microserviceMetricsConfig(implicit app: Application): Option[Configuration] = app.configuration.getConfig(s"microservice.metrics")
 }

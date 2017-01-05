@@ -1,4 +1,4 @@
-package uk.gov.hmrc.$name$.controllers.healthController
+package $mainPackage$$name$.controllers.healthController
 
 import com.typesafe.config.ConfigRenderOptions
 import play.api.{Configuration, Play}

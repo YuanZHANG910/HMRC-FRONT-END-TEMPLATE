@@ -5,7 +5,7 @@
   mainClass: Option[String] = None,
   scriptElem: Option[Html] = None)(mainContent: Html)(implicit request : Request[_], messages: Messages)
 
-@import uk.gov.hmrc.play.views.html.layouts
+@import $mainPackage$play.views.html.layouts
 
 
 @serviceInfoContent = {}
@@ -17,7 +17,7 @@
 }
 
 
-@govuk_wrapper(appConfig = uk.gov.hmrc.$name$.FrontendAppConfig,
+@govuk_wrapper(appConfig = $mainPackage$$name$.FrontendAppConfig,
                title = title,
                mainClass = mainClass,
                bodyClasses = bodyClasses,
