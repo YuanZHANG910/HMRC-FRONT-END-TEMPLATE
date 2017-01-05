@@ -1,7 +1,7 @@
-package uk.gov.hmrc.$name$
+package $mainPackage$$name$
 
 import play.api.Play.{configuration, current}
-import uk.gov.hmrc.play.config.ServicesConfig
+import $mainPackage$play.config.ServicesConfig
 
 trait AppConfig {
   val analyticsToken: String
