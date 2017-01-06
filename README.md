@@ -1,5 +1,6 @@
 A [giter8](https://github.com/n8han/giter8) template for creating sbt/scala project in a clean and easy way.
 
+You are getting a frontend-template that comes with play! 2.5
 You will need sbt 0.13.13 or above to use this template
 
 * [ScalaTest](http://www.scalatest.org/)
